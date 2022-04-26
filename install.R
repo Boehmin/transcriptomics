@@ -3,8 +3,6 @@ install.packages("rmarkdown")
 install.packages("httr")
 install.packages("shinydashboard")
 install.packages("leaflet")
-
-# Dependencies for extract FASTA from gene symbols
 BiocManager::install("EnsDb.Mmusculus.v79")
 BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene")
 BiocManager::install("biomaRt")
